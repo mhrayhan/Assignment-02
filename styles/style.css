@@ -20,6 +20,9 @@ main, header, footer{
     justify-content: center;
     padding: 0 .5em;
 }
+p{
+    font-size: 1.2em;
+}
 
 .container{
     width: 100%;
@@ -260,26 +263,24 @@ footer{
     color: #E02C6DDE;
     background-color: #fff;
 }
+.delivery-section{
+    background: radial-gradient(rgb(255, 255, 255), rgb(253, 230, 230));
+}
+
 .delivery {
+    margin: 0 auto;
     display: flex;
-    background: radial-gradient(rgb(255, 255, 255), rgb(255, 214, 214));
-    margin-top: -30px;
-    padding: 30px 0px;
     align-items: center;
-    height: 450px;
 }
-.col-1-img{
-    width: 50%;
+.delivery-img img{
+    width: 100%;
 }
-.col-1-img img{
-    width: 90%;
+.delivery-details h2 {
+    font-size: 52px;
+    margin-bottom: 30px;
 }
-.col-2-details{
-    width: 50%;
-}
-.col-2-details h2 {
-    font-size: 48px;
-}
+
+
 
 /* =====================================
             Media Query 
@@ -347,34 +348,18 @@ footer{
         margin-top: 25px;
         margin-bottom: -34px;
     }
-    .brand-logo-img {
-        
-    }
     .delivery {
         flex-direction: column;
-        width: 100%;
-        height: 600px;
-        margin: 0;
-        padding: 20px 10px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
     }
-    .col-1-img {
-        width: 100%;
+    .delivery-details h2 {
+        font-size: 37px;
     }
-    .col-1-img img {
-        width: 100%;
-        margin-top: -70px;
+    .delivery-details{
+        padding: 0 5px;
     }
-    .col-2-details {
-        width: 100%;
-    }
-    .col-2-details h2 {
-        font-size: 48px;
-        margin-top: -60px;
-    }
-    .col-2-details h2 {
-        font-size: 36px;
-        margin-top: -60px;
-    }
+
 
 }
 
