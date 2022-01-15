@@ -359,17 +359,24 @@ footer{
     .popular-collections {
         width: 100%;
         margin-left: 0;
-        margin-left: -8px;
     }
     .popular-title {
         margin-left: 20px;
     }
     .popular-collection {
         grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 1.1%;
+        grid-column-gap: 4%;
     }
 
     .details {
         padding-bottom: 10px;
+    }
+    .see-more {
+        margin-top: 0px;
+        margin-right: 0;
+        text-align: right;
+        margin-bottom: -50px;
     }
 }
 
