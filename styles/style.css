@@ -33,6 +33,7 @@ main, header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
 }
 .logo h3{
     font-size: 24px;
@@ -129,6 +130,8 @@ main, header, footer{
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
+    box-shadow: -2px 0px 10px 0px rgb(0 0 0 / 15%);
+    padding: 30px 0;
 }
 .popular-collections {
     width: 1047px;
@@ -298,9 +301,11 @@ footer{
     }
     .brand-logo-img {
         flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 5px;
     }
     .brand-logo-img img {
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
     .popular-collections {
         width: 100%;
@@ -321,6 +326,9 @@ footer{
     .see-more {
         margin-top: 25px;
         margin-bottom: -34px;
+    }
+    .brand-logo-img {
+        
     }
 
 }
